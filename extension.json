@@ -46,9 +46,6 @@
 				"bs.catgrychk/ui/plugin/MWSaveDialog.js",
 				"bluespice.categoryCheck.visualEditorPlugin.js"
 			],
-			"dependencies": [
-				"ext.bluespice.visualEditorConnector"
-			],
 			"messages": [
 				"bs-categorycheck-insertcategory-no-category",
 				"bs-categorycheck-insertcategory-ignore-no-category",
