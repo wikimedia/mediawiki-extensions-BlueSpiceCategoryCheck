@@ -1,0 +1,86 @@
+{
+	"name": "BlueSpiceCategoryCheck",
+	"version": "3.3.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:CategoryCheck",
+	"author": [
+		"Tobias Weichart",
+		"Robert Vogel"
+	],
+	"descriptionmsg": "bs-categorycheck-extension-description",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 3.3"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceCategoryCheck": {
+					"className": "BlueSpice\\CategoryCheck\\Extension",
+					"extPath": "/BlueSpiceCategoryCheck"
+				}
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"PluginModules": [
+				"ext.bluespice.categoryCheck.visualEditorPlugin"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"CategoryCheck": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\CategoryCheck\\": "src"
+	},
+	"ResourceModules": {
+		"ext.bluespice.categoryCheck": {
+			"scripts": [
+				"ext.bluespice.categoryCheck.js"
+			],
+			"messages": [
+				"bs-categorycheck-insertcategory-no-category"
+			]
+		},
+		"ext.bluespice.categoryCheck.visualEditorPlugin": {
+			"scripts": [
+				"bs.catgrychk/ui/plugin/MWSaveDialog.js",
+				"bluespice.categoryCheck.visualEditorPlugin.js"
+			],
+			"dependencies": [
+				"ext.bluespice.visualEditorConnector"
+			],
+			"messages": [
+				"bs-categorycheck-insertcategory-no-category",
+				"bs-categorycheck-insertcategory-ignore-no-category",
+				"bs-categorycheck-insertcategory-category-list",
+				"bs-categorycheck-insertcategory-confirm-categories"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceCategoryCheck/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"CategoryCheckNamespaces": {
+			"value": []
+		}
+	},
+	"Hooks": {
+		"BeforePageDisplay": "BlueSpice\\CategoryCheck\\Hook\\BeforePageDisplay\\AddModules::callback",
+		"NamespaceManager::getMetaFields": "BlueSpice\\CategoryCheck\\Hook\\NamespaceManagerGetMetaFields\\RegisterMetaField::callback",
+		"BSApiNamespaceStoreMakeData": "BlueSpice\\CategoryCheck\\Hook\\BSApiNamespaceStoreMakeData\\AddData::callback",
+		"NamespaceManager::editNamespace": "BlueSpice\\CategoryCheck\\Hook\\NamespaceManagerEditNamespace\\SetCategoryCheckValue::callback",
+		"NamespaceManager::writeNamespaceConfiguration": [
+			"BlueSpice\\CategoryCheck\\Hook\\NamespaceManagerWriteNamespaceConfiguration\\WriteToConfiguration::callback"
+		]
+	},
+	"manifest_version": 2
+}
