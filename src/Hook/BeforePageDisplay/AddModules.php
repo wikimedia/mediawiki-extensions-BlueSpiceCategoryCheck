@@ -9,15 +9,16 @@ class AddModules extends BeforePageDisplay {
 	protected $enabledNamespaces = [];
 
 	protected function skipProcessing() {
-		if( $this->out->getTitle()->isSpecialPage() ) {
+		if ( $this->out->getTitle()->isSpecialPage() ) {
 			return true;
 		}
 
-		if( !$this->out->getTitle()->isWikitextPage() ) { //No JS, CSS and so on
+		// No JS, CSS and so on
+		if ( !$this->out->getTitle()->isWikitextPage() ) {
 			return true;
 		}
 
-		if( $this->isNotEnabledForCurrentNamespace() ) {
+		if ( $this->isNotEnabledForCurrentNamespace() ) {
 			return true;
 		}
 
@@ -25,7 +26,7 @@ class AddModules extends BeforePageDisplay {
 	}
 
 	protected function doProcess() {
-		if( $this->out->getRequest()->getVal( 'action', 'view' ) === 'edit' ) {
+		if ( $this->out->getRequest()->getVal( 'action', 'view' ) === 'edit' ) {
 			$this->out->addModules( 'ext.bluespice.categoryCheck' );
 		}
 
