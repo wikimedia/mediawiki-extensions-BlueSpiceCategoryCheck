@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mansil alfalb"
+		]
+	},
+	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorar",
+	"bs-categorycheck-insertcategory-confirm-categories": "As categorias estão corretas",
+	"bs-categorycheck-nsm-label-categorycheck": "Verificar Categoria"
+}
