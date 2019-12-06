@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"沈澄心"
+		]
+	},
+	"bs-categorycheck-insertcategory-ignore-no-category": "忽略",
+	"bs-categorycheck-insertcategory-confirm-categories": "分类正确",
+	"bs-categorycheck-nsm-label-categorycheck": "分类检查"
+}
