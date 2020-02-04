@@ -7,5 +7,8 @@
 	},
 	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorar",
 	"bs-categorycheck-insertcategory-confirm-categories": "As categorias estão corretas",
-	"bs-categorycheck-nsm-label-categorycheck": "Verificação de Categoria"
+	"bs-categorycheck-nsm-label-categorycheck": "Verificação de Categoria",
+	"bs-categorycheck-extension-description": "Verifica a categoria atribuída antes de um artigo ser gravado",
+	"bs-categorycheck-insertcategory-no-category": "Atribua uma categoria ao artigo, por favor",
+	"bs-categorycheck-insertcategory-category-list": "As seguintes categorias estão atribuídas"
 }
