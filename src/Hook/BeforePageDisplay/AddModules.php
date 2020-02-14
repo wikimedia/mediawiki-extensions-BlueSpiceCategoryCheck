@@ -26,10 +26,6 @@ class AddModules extends BeforePageDisplay {
 	}
 
 	protected function doProcess() {
-		if ( $this->out->getRequest()->getVal( 'action', 'view' ) === 'edit' ) {
-			$this->out->addModules( 'ext.bluespice.categoryCheck' );
-		}
-
 		$this->out->addJsConfigVars(
 			'bsgCategoryCheckNamespaces',
 			$this->enabledNamespaces
