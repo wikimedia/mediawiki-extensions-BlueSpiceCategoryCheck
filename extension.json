@@ -39,14 +39,6 @@
 		"BlueSpice\\CategoryCheck\\": "src/"
 	},
 	"ResourceModules": {
-		"ext.bluespice.categoryCheck": {
-			"scripts": [
-				"ext.bluespice.categoryCheck.js"
-			],
-			"messages": [
-				"bs-categorycheck-insertcategory-no-category"
-			]
-		},
 		"ext.bluespice.categoryCheck.visualEditorPlugin": {
 			"scripts": [
 				"bs.catgrychk/ui/plugin/MWSaveDialog.js",
