@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"YaronSh"
+		]
+	},
+	"bs-categorycheck-insertcategory-no-category": "נא להקצות קטגוריה לערך",
+	"bs-categorycheck-insertcategory-ignore-no-category": "התעלמות",
+	"bs-categorycheck-insertcategory-category-list": "הקטגוריות הבאות מוגדרות",
+	"bs-categorycheck-insertcategory-confirm-categories": "הקטגוריות נכונות"
+}
