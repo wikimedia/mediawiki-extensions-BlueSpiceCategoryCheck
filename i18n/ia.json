@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"bs-categorycheck-extension-description": "Verifica que un categoria ha essite assignate ante de salveguardar un articulo",
+	"bs-categorycheck-insertcategory-no-category": "Per favor assigna un categoria al articulo",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorar",
+	"bs-categorycheck-insertcategory-category-list": "Le sequente categorias ha essite assignate",
+	"bs-categorycheck-insertcategory-confirm-categories": "Le categorias es correcte",
+	"bs-categorycheck-nsm-label-categorycheck": "Verification de categoria"
+}
