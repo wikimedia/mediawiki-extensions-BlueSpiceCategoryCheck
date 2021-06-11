@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"Madamebiblio"
+			"Madamebiblio",
+			"Rodney Araujo"
 		]
 	},
 	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorar",
 	"bs-categorycheck-insertcategory-category-list": "Se han definido las categorías siguientes",
-	"bs-categorycheck-insertcategory-confirm-categories": "Las categorías son correctas"
+	"bs-categorycheck-insertcategory-confirm-categories": "Las categorías son correctas",
+	"bs-categorycheck-insertcategory-no-category": "Por favor, asigna una categoría al artículo."
 }

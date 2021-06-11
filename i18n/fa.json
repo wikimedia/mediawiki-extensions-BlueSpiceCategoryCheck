@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"FarsiNevis"
+			"FarsiNevis",
+			"Jeeputer"
 		]
 	},
 	"bs-categorycheck-insertcategory-ignore-no-category": "چشم‌پوشی",
-	"bs-categorycheck-insertcategory-confirm-categories": "رده‌ها درست‌اند"
+	"bs-categorycheck-insertcategory-confirm-categories": "رده‌ها درست‌اند",
+	"bs-categorycheck-extension-description": "پیش از ذخیرهٔ صفحه، وجود ردهٔ اختصاص‌یافته را بررسی می‌کند",
+	"bs-categorycheck-insertcategory-no-category": "لطفاً یک رده را به مقاله اختصاص دهید",
+	"bs-categorycheck-insertcategory-category-list": "رده‌های زیر تنظیم شدند",
+	"bs-categorycheck-nsm-label-categorycheck": "بررسی رده"
 }
