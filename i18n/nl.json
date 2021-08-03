@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Romaine"
 		]
 	},
 	"bs-categorycheck-insertcategory-no-category": "Wijs een categorie aan het artikel toe",
-	"bs-categorycheck-insertcategory-ignore-no-category": "Negeren"
+	"bs-categorycheck-insertcategory-ignore-no-category": "Negeren",
+	"bs-categorycheck-insertcategory-category-list": "De volgende categorieën zijn ingesteld",
+	"bs-categorycheck-insertcategory-confirm-categories": "Categorieën zijn correct"
 }
