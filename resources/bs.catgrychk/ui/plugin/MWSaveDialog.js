@@ -55,7 +55,7 @@ bs.catgrychk.ui.plugin.MWSaveDialog.prototype.showError = function() {
 
 	var errorMsg = mw.message( 'bs-categorycheck-insertcategory-no-category' );
 	this.$errorMessage =
-		$('<div class="alert alert-danger" role="alert">')
+		$( '<div id="bs-categorycheck-missingcategory" class="alert alert-danger" role="alert">' )
 		.append( errorMsg.plain() )
 		.append( checkbox.$element );
 
@@ -76,6 +76,10 @@ bs.catgrychk.ui.plugin.MWSaveDialog.prototype.makeCheckbox = function( label ) {
 	fieldSetLayout.addItems( [
 		new OO.ui.FieldLayout( ignore, { label: labelMsg.plain(), align: 'inline' } )
 	] );
+
+	if ( label === 'bs-categorycheck-insertcategory-ignore-no-category' ) {
+		fieldSetLayout.items[0].$label.attr( 'aria-labelledby', 'bs-categorycheck-missingcategory' );
+	}
 
 	return fieldSetLayout;
 };
