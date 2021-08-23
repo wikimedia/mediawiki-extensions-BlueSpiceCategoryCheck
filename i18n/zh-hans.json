@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"AYZ04",
 			"Dimension",
 			"沈澄心"
 		]
 	},
+	"bs-categorycheck-extension-description": "在保存文章之前检查指定的类别",
 	"bs-categorycheck-insertcategory-no-category": "请为条目指定分类",
 	"bs-categorycheck-insertcategory-ignore-no-category": "忽略",
+	"bs-categorycheck-insertcategory-category-list": "以下类别已设置",
 	"bs-categorycheck-insertcategory-confirm-categories": "分类正确",
 	"bs-categorycheck-nsm-label-categorycheck": "分类检查"
 }
