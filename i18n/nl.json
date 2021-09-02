@@ -2,11 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
+			"McDutchie",
 			"Romaine"
 		]
 	},
+	"bs-categorycheck-extension-description": "Controleert of er een categorie is toegewezen voordat een artikel wordt opgeslagen",
 	"bs-categorycheck-insertcategory-no-category": "Wijs een categorie aan het artikel toe",
 	"bs-categorycheck-insertcategory-ignore-no-category": "Negeren",
 	"bs-categorycheck-insertcategory-category-list": "De volgende categorieën zijn ingesteld",
-	"bs-categorycheck-insertcategory-confirm-categories": "Categorieën zijn correct"
+	"bs-categorycheck-insertcategory-confirm-categories": "Categorieën zijn correct",
+	"bs-categorycheck-nsm-label-categorycheck": "Categoriecontrole"
 }
