@@ -78,7 +78,7 @@ bs.catgrychk.ui.plugin.MWSaveDialog.prototype.makeCheckbox = function( label ) {
 	] );
 
 	if ( label === 'bs-categorycheck-insertcategory-ignore-no-category' ) {
-		fieldSetLayout.items[0].$label.attr( 'aria-labelledby', 'bs-categorycheck-missingcategory' );
+		fieldSetLayout.items[0].$label.attr( 'aria-describedby', 'bs-categorycheck-missingcategory' );
 	}
 
 	return fieldSetLayout;
