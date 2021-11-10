@@ -70,16 +70,20 @@ bs.catgrychk.ui.plugin.MWSaveDialog.prototype.makeCheckbox = function( label ) {
 	var ignore = new OO.ui.CheckboxInputWidget( {} );
 	ignore.on( 'change', this.toggleSaveButton, [], this );
 
+	var $children = ignore.$element.children();
+	for ( var i = 0; i < $children.length; i++ ) {
+		if ( $children[ i ].type === 'checkbox' ) {
+			ignore.$element.children().eq( i )
+				.attr( 'aria-describedby', 'bs-categorycheck-missingcategory' );
+		}
+	}
+
 	var fieldSetLayout = new OO.ui.FieldsetLayout( {} );
 	var labelMsg = mw.message( label );
 
 	fieldSetLayout.addItems( [
 		new OO.ui.FieldLayout( ignore, { label: labelMsg.plain(), align: 'inline' } )
 	] );
-
-	if ( label === 'bs-categorycheck-insertcategory-ignore-no-category' ) {
-		fieldSetLayout.items[0].$label.attr( 'aria-describedby', 'bs-categorycheck-missingcategory' );
-	}
 
 	return fieldSetLayout;
 };
