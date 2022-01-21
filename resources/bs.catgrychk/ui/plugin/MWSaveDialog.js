@@ -33,7 +33,7 @@ bs.catgrychk.ui.plugin.MWSaveDialog.prototype.showList = function() {
 
 	var listIntro = mw.message( 'bs-categorycheck-insertcategory-category-list' );
 	this.$categoryList =
-		$('<div class="alert alert-warning" role="alert">')
+		$('<div id="bs-categorycheck-confirm-categories" class="alert alert-warning" role="alert">')
 		.append( listIntro.plain() )
 		.append( '<br />' )
 		.append( categoryLinkList )
@@ -70,11 +70,17 @@ bs.catgrychk.ui.plugin.MWSaveDialog.prototype.makeCheckbox = function( label ) {
 	var ignore = new OO.ui.CheckboxInputWidget( {} );
 	ignore.on( 'change', this.toggleSaveButton, [], this );
 
+	var ariaLabel = '';
+	if ( this.categories.length > 0 ) {
+		ariaLabel = 'bs-categorycheck-confirm-categories';
+	} else {
+		ariaLabel = 'bs-categorycheck-missingcategory';
+	}
 	var $children = ignore.$element.children();
 	for ( var i = 0; i < $children.length; i++ ) {
 		if ( $children[ i ].type === 'checkbox' ) {
 			ignore.$element.children().eq( i )
-				.attr( 'aria-describedby', 'bs-categorycheck-missingcategory' );
+				.attr( 'aria-describedby', ariaLabel );
 		}
 	}
 
