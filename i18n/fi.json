@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Markus Mikkonen"
 		]
 	},
+	"bs-categorycheck-insertcategory-ignore-no-category": "Hylkää",
 	"bs-categorycheck-insertcategory-confirm-categories": "Luokat ovat oikein"
 }
