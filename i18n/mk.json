@@ -4,6 +4,8 @@
 			"Vlad5250"
 		]
 	},
+	"bs-categorycheck-extension-description": "Проверува за доделената категорија пред да се зачува статијата",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Занемари",
 	"bs-categorycheck-insertcategory-category-list": "Следниве категории се зададени",
 	"bs-categorycheck-insertcategory-confirm-categories": "Категориите се исправни"
 }
