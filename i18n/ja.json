@@ -2,11 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"A2y4",
-			"Aefgh39622"
+			"Aefgh39622",
+			"背番号4のエース"
 		]
 	},
 	"bs-categorycheck-insertcategory-ignore-no-category": "無視",
 	"bs-categorycheck-insertcategory-category-list": "次のカテゴリが設定されました",
 	"bs-categorycheck-insertcategory-confirm-categories": "カテゴリは正しいです",
-	"bs-categorycheck-nsm-label-categorycheck": "カテゴリチェック"
+	"bs-categorycheck-nsm-label-categorycheck": "カテゴリチェック",
+	"bs-categorycheck-extension-description": "記事が保存される前に、割り当てられたカテゴリをチェックします",
+	"bs-categorycheck-insertcategory-no-category": "記事にカテゴリを割り当ててください"
 }
