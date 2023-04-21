@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nokeoo",
 			"Tomasdd"
 		]
 	},
+	"bs-categorycheck-extension-description": "Prieš išsaugant straipsnį patikrinama priskirta kategorija",
+	"bs-categorycheck-insertcategory-no-category": "Priskirkite straipsniui kategoriją",
 	"bs-categorycheck-insertcategory-ignore-no-category": "Ignoruoti",
-	"bs-categorycheck-insertcategory-confirm-categories": "Kategorijos yra teisingos"
+	"bs-categorycheck-insertcategory-category-list": "Nustatytos šios kategorijos",
+	"bs-categorycheck-insertcategory-confirm-categories": "Kategorijos yra teisingos",
+	"bs-categorycheck-nsm-label-categorycheck": "Kategorijų tikrinimas"
 }
