@@ -67,9 +67,12 @@
 		"NamespaceManager::getMetaFields": "BlueSpice\\CategoryCheck\\Hook\\NamespaceManagerGetMetaFields\\RegisterMetaField::callback",
 		"BSApiNamespaceStoreMakeData": "BlueSpice\\CategoryCheck\\Hook\\BSApiNamespaceStoreMakeData\\AddData::callback",
 		"NamespaceManager::editNamespace": "BlueSpice\\CategoryCheck\\Hook\\NamespaceManagerEditNamespace\\SetCategoryCheckValue::callback",
-		"NamespaceManager::writeNamespaceConfiguration": [
-			"BlueSpice\\CategoryCheck\\Hook\\NamespaceManagerWriteNamespaceConfiguration\\WriteToConfiguration::callback"
-		]
+		"NamespaceManagerBeforePersistSettings": "writeNamespaceConfiguration"
+	},
+	"HookHandlers": {
+		"writeNamespaceConfiguration": {
+			"class": "\\BlueSpice\\CategoryCheck\\Hook\\WriteNamespaceConfiguration"
+		}
 	},
 	"manifest_version": 2
 }
