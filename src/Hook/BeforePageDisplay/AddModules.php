@@ -6,6 +6,7 @@ use BlueSpice\Hook\BeforePageDisplay;
 
 class AddModules extends BeforePageDisplay {
 
+	/** @var int[] */
 	protected $enabledNamespaces = [];
 
 	protected function skipProcessing() {

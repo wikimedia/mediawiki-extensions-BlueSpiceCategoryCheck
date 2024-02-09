@@ -25,7 +25,7 @@
 			"minus-x fix .",
 			"phpcbf"
 		],
-		"phpcs": "phpcs -sp"
+		"phpcs": "phpcs -sp --cache"
 	},
 	"config": {
 		"allow-plugins": {
