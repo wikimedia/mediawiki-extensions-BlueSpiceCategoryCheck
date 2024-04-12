@@ -10,12 +10,17 @@ class AddModules extends BeforePageDisplay {
 	protected $enabledNamespaces = [];
 
 	protected function skipProcessing() {
-		if ( $this->out->getTitle()->isSpecialPage() ) {
+		$title = $this->out->getTitle();
+		if ( !$title ) {
+			return true;
+		}
+
+		if ( $title->isSpecialPage() ) {
 			return true;
 		}
 
 		// No JS, CSS and so on
-		if ( !$this->out->getTitle()->isWikitextPage() ) {
+		if ( !$title->isWikitextPage() ) {
 			return true;
 		}
 
