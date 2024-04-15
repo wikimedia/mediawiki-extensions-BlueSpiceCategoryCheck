@@ -35,6 +35,9 @@ class AddModules extends BeforePageDisplay {
 		return true;
 	}
 
+	/**
+	 * @return bool
+	 */
 	protected function isNotEnabledForCurrentNamespace() {
 		$this->enabledNamespaces =
 			$this->getConfig()->get( 'CategoryCheckNamespaces' );
