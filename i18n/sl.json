@@ -5,8 +5,8 @@
 		]
 	},
 	"bs-categorycheck-insertcategory-ignore-no-category": "Prezri",
-	"bs-categorycheck-extension-description": "Preveri dodeljeno kategorijo, preden se članek shrani",
-	"bs-categorycheck-insertcategory-no-category": "Prosimo, dodelite članku kategorijo",
+	"bs-categorycheck-extension-description": "Preveri dodeljeno kategorijo, preden se \u010dlanek shrani",
+	"bs-categorycheck-insertcategory-no-category": "Prosimo, dodelite \u010dlanku kategorijo",
 	"bs-categorycheck-insertcategory-category-list": "Nastavljene so naslednje kategorije",
 	"bs-categorycheck-insertcategory-confirm-categories": "Kategorije so pravilne",
 	"bs-categorycheck-nsm-label-categorycheck": "Preverjanje kategorij"
