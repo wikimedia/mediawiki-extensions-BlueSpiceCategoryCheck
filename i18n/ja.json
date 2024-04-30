@@ -3,13 +3,13 @@
 		"authors": [
 			"A2y4",
 			"Aefgh39622",
-			"\u80cc\u756a\u53f74\u306e\u30a8\u30fc\u30b9"
+			"背番号4のエース"
 		]
 	},
-	"bs-categorycheck-insertcategory-ignore-no-category": "\u7121\u8996",
-	"bs-categorycheck-insertcategory-category-list": "\u6b21\u306e\u30ab\u30c6\u30b4\u30ea\u304c\u8a2d\u5b9a\u3055\u308c\u307e\u3057\u305f",
-	"bs-categorycheck-insertcategory-confirm-categories": "\u30ab\u30c6\u30b4\u30ea\u306f\u6b63\u3057\u3044\u3067\u3059",
-	"bs-categorycheck-nsm-label-categorycheck": "\u30ab\u30c6\u30b4\u30ea\u30c1\u30a7\u30c3\u30af",
-	"bs-categorycheck-extension-description": "\u8a18\u4e8b\u304c\u4fdd\u5b58\u3055\u308c\u308b\u524d\u306b\u3001\u5272\u308a\u5f53\u3066\u3089\u308c\u305f\u30ab\u30c6\u30b4\u30ea\u3092\u30c1\u30a7\u30c3\u30af\u3057\u307e\u3059",
-	"bs-categorycheck-insertcategory-no-category": "\u8a18\u4e8b\u306b\u30ab\u30c6\u30b4\u30ea\u3092\u5272\u308a\u5f53\u3066\u3066\u304f\u3060\u3055\u3044"
+	"bs-categorycheck-insertcategory-ignore-no-category": "無視",
+	"bs-categorycheck-insertcategory-category-list": "次のカテゴリが設定されました",
+	"bs-categorycheck-insertcategory-confirm-categories": "カテゴリは正しいです",
+	"bs-categorycheck-nsm-label-categorycheck": "カテゴリチェック",
+	"bs-categorycheck-extension-description": "記事が保存される前に、割り当てられたカテゴリをチェックします",
+	"bs-categorycheck-insertcategory-no-category": "記事にカテゴリを割り当ててください"
 }
