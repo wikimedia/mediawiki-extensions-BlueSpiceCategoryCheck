@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong",
-			"Tensama0415"
+			"Tensama0415",
+			"Ykhwong"
 		]
 	},
 	"bs-categorycheck-extension-description": "문서가 저장되기 전에 할당된 분류를 확인합니다.",
