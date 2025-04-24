@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
@@ -8,5 +9,6 @@
 	"bs-categorycheck-insertcategory-ignore-no-category": "무시",
 	"bs-categorycheck-insertcategory-category-list": "다음의 분류가 설정되어 있습니다",
 	"bs-categorycheck-insertcategory-confirm-categories": "분류는 정상입니다",
-	"bs-categorycheck-nsm-label-categorycheck": "분류검사"
+	"bs-categorycheck-nsm-label-categorycheck": "분류검사",
+	"bs-categorycheck-extension-description": "문서가 저장되기 전에 할당된 분류를 확인합니다."
 }
