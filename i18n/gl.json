@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"bs-categorycheck-extension-description": "Comproba a categoría asignada antes de gardar un artigo",
+	"bs-categorycheck-insertcategory-no-category": "Asigna unha categoría ao artigo",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorar",
+	"bs-categorycheck-insertcategory-category-list": "Establecéronse as seguintes categorías",
+	"bs-categorycheck-insertcategory-confirm-categories": "As categorías son correctas",
+	"bs-categorycheck-nsm-label-categorycheck": "Comprobación de categorías"
+}
