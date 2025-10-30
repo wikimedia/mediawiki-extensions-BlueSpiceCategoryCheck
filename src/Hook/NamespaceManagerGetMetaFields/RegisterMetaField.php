@@ -10,7 +10,7 @@ class RegisterMetaField extends NamespaceManagerGetMetaFields {
 		$this->metaFields[] = [
 			'name' => 'categorycheck',
 			'type' => 'boolean',
-			'label' => wfMessage( 'bs-categorycheck-nsm-label-categorycheck' )->plain(),
+			'label' => wfMessage( 'bs-categorycheck-nsm-label-categorycheck' )->text(),
 			'filter' => [
 				'type' => 'boolean'
 			]
