@@ -33,7 +33,7 @@ bs.catgrychk.ui.plugin.MWSaveDialog.prototype.showList = function () {
 	const listIntro = mw.message( 'bs-categorycheck-insertcategory-category-list' );
 	this.$categoryList =
 		$( '<div id="bs-categorycheck-confirm-categories" class="alert alert-warning" role="alert">' ) // eslint-disable-line no-jquery/no-parse-html-literal
-			.append( listIntro.plain() )
+			.append( listIntro.text() )
 			.append( '<br>' )
 			.append( categoryLinkList )
 			.append( checkbox.$element );
@@ -55,7 +55,7 @@ bs.catgrychk.ui.plugin.MWSaveDialog.prototype.showError = function () {
 	const errorMsg = mw.message( 'bs-categorycheck-insertcategory-no-category' );
 	this.$errorMessage =
 		$( '<div id="bs-categorycheck-missingcategory" class="alert alert-danger" role="alert">' ) // eslint-disable-line no-jquery/no-parse-html-literal
-			.append( errorMsg.plain() )
+			.append( errorMsg.text() )
 			.append( checkbox.$element );
 
 	this.component.savePanel.$element.prepend( this.$errorMessage );
@@ -87,7 +87,7 @@ bs.catgrychk.ui.plugin.MWSaveDialog.prototype.makeCheckbox = function ( label ) 
 	const labelMsg = mw.message( label ); // eslint-disable-line mediawiki/msg-doc
 
 	fieldSetLayout.addItems( [
-		new OO.ui.FieldLayout( ignore, { label: labelMsg.plain(), align: 'inline' } )
+		new OO.ui.FieldLayout( ignore, { label: labelMsg.text(), align: 'inline' } )
 	] );
 
 	return fieldSetLayout;
