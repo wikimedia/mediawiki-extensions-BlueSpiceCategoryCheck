@@ -2,9 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Mjälten",
+			"Stefan2255",
 			"Technic2"
 		]
 	},
 	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorera",
-	"bs-categorycheck-insertcategory-confirm-categories": "Kategorier är korrekta"
+	"bs-categorycheck-insertcategory-confirm-categories": "Kategorier är korrekta",
+	"bs-categorycheck-extension-description": "Kontrollerar tilldelad kategori innan en artikel sparas",
+	"bs-categorycheck-insertcategory-no-category": "Vänligen tilldela artikeln en kategori",
+	"bs-categorycheck-insertcategory-category-list": "Följande kategorier är inställda",
+	"bs-categorycheck-nsm-label-categorycheck": "Kategorikontroll"
 }

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-categorycheck-extension-description": "Hozzárendelt kategóriák ellenőrzése mentés előtt",
+	"bs-categorycheck-insertcategory-no-category": "Adj meg kategóriát",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Mellőz",
+	"bs-categorycheck-insertcategory-category-list": "A következő kategóriák vannak megadva",
+	"bs-categorycheck-insertcategory-confirm-categories": "A kategóriák helyesek",
+	"bs-categorycheck-nsm-label-categorycheck": "Kategóriaellenőrzés"
+}
