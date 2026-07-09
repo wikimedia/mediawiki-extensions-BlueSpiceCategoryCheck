@@ -9,6 +9,7 @@ class AddModules extends BeforePageDisplay {
 	/** @var int[] */
 	protected $enabledNamespaces = [];
 
+	/** @inheritDoc */
 	protected function skipProcessing() {
 		$title = $this->out->getTitle();
 		if ( !$title ) {
@@ -31,6 +32,9 @@ class AddModules extends BeforePageDisplay {
 		return false;
 	}
 
+	/**
+	 * @return bool
+	 */
 	protected function doProcess() {
 		$this->out->addJsConfigVars(
 			'bsgCategoryCheckNamespaces',

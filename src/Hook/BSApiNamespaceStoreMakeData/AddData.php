@@ -6,6 +6,9 @@ use BlueSpice\NamespaceManager\Hook\BSApiNamespaceStoreMakeData;
 
 class AddData extends BSApiNamespaceStoreMakeData {
 
+	/**
+	 * @return bool
+	 */
 	protected function doProcess() {
 		$enabledNamespace = $this->getConfig()->get( 'CategoryCheckNamespaces' );
 
