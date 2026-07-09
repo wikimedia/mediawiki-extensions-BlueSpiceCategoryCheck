@@ -5,7 +5,7 @@ bs.vec.registerComponentPlugin(
 			mw.config.get( 'bsgCategoryCheckNamespaces', [] );
 		const currentNamespace = mw.config.get( 'wgNamespaceNumber' );
 
-		if ( bsgCategoryCheckNamespaces.indexOf( currentNamespace ) === -1 ) {
+		if ( bsgCategoryCheckNamespaces.indexOf( currentNamespace ) === -1 ) { // eslint-disable-line unicorn/prefer-includes
 
 			// Base class that does nothing
 			return new bs.vec.ui.plugin.MWSaveDialog( component );

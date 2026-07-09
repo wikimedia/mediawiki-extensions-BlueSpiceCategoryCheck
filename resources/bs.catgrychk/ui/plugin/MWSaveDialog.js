@@ -84,7 +84,7 @@ bs.catgrychk.ui.plugin.MWSaveDialog.prototype.makeCheckbox = function ( label ) 
 	}
 
 	const fieldSetLayout = new OO.ui.FieldsetLayout( {} );
-	const labelMsg = mw.message( label ); // eslint-disable-line mediawiki/msg-doc
+	const labelMsg = mw.message( label );
 
 	fieldSetLayout.addItems( [
 		new OO.ui.FieldLayout( ignore, { label: labelMsg.text(), align: 'inline' } )
