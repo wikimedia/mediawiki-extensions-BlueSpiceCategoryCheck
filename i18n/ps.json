@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"bs-categorycheck-extension-description": "د ليکنې له خوندي‌کېدو دمخه د ټاکل شوې وېشنيزې لپاره سم‌کتنه",
+	"bs-categorycheck-insertcategory-no-category": "مهرباني وکړئ ليکنې ته يوه وېشنيزه وټاکئ",
+	"bs-categorycheck-insertcategory-ignore-no-category": "بابېزل",
+	"bs-categorycheck-insertcategory-category-list": "لاندې وېشنيزې اوڼل شوې دي",
+	"bs-categorycheck-insertcategory-confirm-categories": "وېشنيزې سمې دي",
+	"bs-categorycheck-nsm-label-categorycheck": "ويشنيزې‌سم‌کتل"
+}
