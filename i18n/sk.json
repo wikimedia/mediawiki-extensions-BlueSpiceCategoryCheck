@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"bs-categorycheck-extension-description": "Pred uložením článku skontroluje priradenú kategóriu",
+	"bs-categorycheck-insertcategory-no-category": "Priraďte, prosím, článku kategóriu",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorovať",
+	"bs-categorycheck-insertcategory-category-list": "Sú nastavené nasledujúce kategórie",
+	"bs-categorycheck-insertcategory-confirm-categories": "Kategórie sú v poriadku",
+	"bs-categorycheck-nsm-label-categorycheck": "CategoryCheck"
+}
